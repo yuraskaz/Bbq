@@ -1,24 +1,31 @@
-# README
+## Event manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+***
 
-Things you may want to cover:
 
-* Ruby version
+##### Web page:
+To do...
 
-* System dependencies
 
-* Configuration
+### Launching
+***
+##### Requirements:
+* Ruby version _>= 2.3.0_
+* Rails version _5.1.4_
 
-* Database creation
+##### Commands
+Clone the repository to your local machine and run following commands:
 
-* Database initialization
+```
+$ bundle
+```
 
-* How to run the test suite
+```
+$ bundle exec rake db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+rails s
+```
 
-* Deployment instructions
-
-* ...
+Open a `localhost:3000` page in your browser.
