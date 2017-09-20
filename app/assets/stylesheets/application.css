@@ -13,3 +13,99 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  min-height: 88.4%;
+}
+
+ /* Buffers */
+.buffer-top {
+  margin-top: 20px;
+}
+
+.buffer-bottom {
+  margin-bottom: 20px;
+}
+
+.buffer-bottom-large {
+  margin-bottom: 40px;
+}
+
+.buffer-both {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Avatars for users & events */
+.img-icon, .img-icon-small {
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+}
+
+/* Thumbnails for events/index */
+.thumbnail {
+  position: relative;
+  background: transparent;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.thumbnail h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: .3em;
+}
+
+.thumbnail-inner {
+  padding: 20px 4px 4px;
+}
+
+/* forms */
+.alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+ }
+
+.alert-alert {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+ }
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+ }
+
+.alert-notice {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+ }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 40px;
+}
